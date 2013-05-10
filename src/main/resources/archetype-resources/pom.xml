@@ -8,7 +8,6 @@
     <packaging>jar</packaging>
 
     <name>${artifactId}</name>
-    <description>A simple version of JavaFX setup as described at http://www.oracle.com/technetwork/articles/java/enterprisefxpt3-1735081.html</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,7 +40,7 @@
                     </execution>
                 </executions>
             </plugin>
-          <plugin>
+            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.2.1</version>
@@ -69,14 +68,12 @@
                             </arguments>
                         </configuration>
                     </execution>
-                </executions>
-                
-     </plugin>
-            
+                </executions>  
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.0</version>
+                <version>3.1</version>
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
@@ -87,28 +84,5 @@
             </plugin>
         </plugins>
     </build>
-
-
-    <dependencies>
-        <!-- MigLayout -->
-
-        <dependency>
-            <groupId>com.miglayout</groupId>
-            <artifactId>miglayout-javafx</artifactId>
-            <version>4.2</version>
-        </dependency>
-
-        <!-- Apache Commons -->
-
-        <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
-            <version>2.6</version>
-        </dependency>
-
-        
-
-    </dependencies>
-
 
 </project>

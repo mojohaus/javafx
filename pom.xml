@@ -7,10 +7,10 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>javafx</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.2-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
-  <name>Simple JavaFX Archetype</name>
-  <description>Simple archetype for creating a JavaFX application</description>
+  <name>JavaFX Archetype</name>
+  <description>Archetype for creating a JavaFX application</description>
   <scm>
     <connection>scm:svn:http://svn.codehaus.org/mojo/trunk/mojo/mojo-archetypes/javafx</connection>
     <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk/mojo/mojo-archetypes/javafx</developerConnection>
