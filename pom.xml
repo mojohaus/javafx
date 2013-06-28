@@ -7,13 +7,13 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>sample-javafx</artifactId>
-  <version>0.1</version>
+  <version>0.2-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
   <name>Sample JavaFX Archetype</name>
   <description>Sample archetype for creating a JavaFX application</description>
   <scm>
-    <connection>scm:svn:http://svn.codehaus.org/mojo/tags/sample-javafx-0.1</connection>
-    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/tags/sample-javafx-0.1</developerConnection>
-    <url>http://fisheye.codehaus.org/browse/mojo/tags/sample-javafx-0.1</url>
+    <connection>scm:svn:http://svn.codehaus.org/mojo/trunk/mojo/mojo-archetypes/sample-javafx</connection>
+    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/trunk/mojo/mojo-archetypes/sample-javafx</developerConnection>
+    <url>http://fisheye.codehaus.org/browse/mojo/trunk/mojo/mojo-archetypes/sample-javafx</url>
   </scm>
 </project>
