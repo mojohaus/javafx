@@ -24,6 +24,7 @@
       <directory></directory>
       <includes>
         <include>nbactions.xml</include>
+        <include>nb-configuration.xml</include>
       </includes>
     </fileSet>
   </fileSets>
