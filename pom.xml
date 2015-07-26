@@ -19,7 +19,7 @@
   
     <scm>
         <connection>scm:git:https://github.com/mojohaus/javafx.git</connection>
-        <developerConnection>scm:git:https://github.com/mojohaus/javafx.git</developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com/mojohaus/javafx</developerConnection>
         <url>https://github.com/mojohaus/javafx/tree/${project.scm.tag}</url>
         <tag>master</tag>
     </scm>
